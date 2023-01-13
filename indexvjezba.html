@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylevjezba.css">
+</head>
+<body>
+    
+        <label for="title">TITLE*</label>
+        <br>
+        <input type="text" id="title" name="title">
+        <br>
+        <label for="desc">DESCRIPTION*</label>
+        <br>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+        <br>
+       <button id="save">SAVE</button>
+       
+    
+     
+
+     <div id="radios">
+        <legend>PRIORITY</legend>
+
+        <div>
+        <input type="radio" id="Low" name="priror">
+        <label for="priror">Low</label>
+        </div>
+
+        <div>
+        <input type="radio" id="Medium" name="priror">
+        <label for="priror">Medium</label>
+        </div>
+        <div>
+            <input type="radio" id="High" name="priror">
+            <label for="priror">High</label>
+            </div>
+            <button id="cancel">CANCEL</button>
+        </div>
+
+        <h1>My Tasks</h1>
+        <div class="todo-wrapper">
+            <button id="delete" class="delete">X</button>
+            
+        </div>
+
+
+
+
+    <script src="./scriptvjezba.js"></script>
+</body>
+</html>
